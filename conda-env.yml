@@ -1,0 +1,14 @@
+name: exercise-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - -r requirements.txt
+    - numpy
+    - matplotlib
+    - seaborn
+    - mlflow
+    - ipykernel
